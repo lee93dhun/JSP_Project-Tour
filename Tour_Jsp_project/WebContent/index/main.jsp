@@ -49,7 +49,9 @@ h3{ text-align: center; }
 		<div class="tab-content">
 			<div class="tab-pane fade" id="menu1">인기</div>
 			<div class="tab-pane fade" id="menu2">코스</div>
-			<div class="tab-pane fade" id="menu3">게시판</div>
+			<div class="tab-pane fade" id="menu3">
+				<%@include file="../Board/boardlist.jsp" %>
+			</div>
 		</div>
 	</div>
 	<hr>
