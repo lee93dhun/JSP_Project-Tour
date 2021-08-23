@@ -29,7 +29,7 @@
 		%>
 		<tr>
 			<td><%=boards.getBno() %></td>
-			<td><%=boards.getBtitle() %></td>
+			<td><a href="../Board/boardcontents.jsp?bno=<%=boards.getBno()%>"><%=boards.getBtitle() %></a></td>
 			<td><%=boards.getBwriter() %></td>
 			<td><%=boards.getBdate() %></td>
 		</tr>

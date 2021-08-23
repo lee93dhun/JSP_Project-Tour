@@ -10,8 +10,8 @@
 <%@include file="../index/header.jsp" %>
 <div class="container">
 <form method="post" action="../Board/boardwritecontroller.jsp">
-	<div class="col-md-2" style="border : solid 1px red">공백</div>
-	<div class="col-md-8" style="border : solid 1px blue">
+	<div class="col-md-2"></div>
+	<div class="col-md-8">
 		<div class="form-group">
 			<h3>글작성 페이지</h3>
 		</div>
@@ -29,7 +29,7 @@
 		</div>
 		<input type="submit" class="btn btn-default pull-right" value="등록">
 	</div>
-	<div class="col-md-2" style="border : solid 1px red">공백</div>
+	<div class="col-md-2"></div>
 </form>
 </div>
 </body>

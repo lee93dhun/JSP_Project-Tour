@@ -59,5 +59,22 @@ public class BoardDao {
 		} catch (Exception e) {}
 		return null;
 	}
+	//게시글 상세조회
+	public Board boardcontents(int bno) {
+		String sql = "select * from board where bno = ?";
+		try {
+			preparedStatement  = connection.prepareStatement(sql);
+			resultSet = preparedStatement.executeQuery();
+			if(resultSet.next()) {
+				Board board = new Board(resultSet.getInt(1), 
+						resultSet.getString(2), 
+						resultSet.getString(3), 
+						resultSet.getString(4), 
+						resultSet.getString(5));
+				return board;
+			}
+		} catch (Exception e) {}
+		return null;
+	}
 
 }
