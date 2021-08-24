@@ -79,3 +79,27 @@ create table board(
 |1|여행지|국내 1박2일|21.08.21|admin|
 |2|여행지|국외 1박2일|21.08.21|abcd|
 
+
+#### 4. 코스
+```
+create table course(
+	cno int primary key auto_increment,
+	cname varchar(45) not null,
+	carea varchar(45) not null,
+	ccontents varchar(3000) not null);
+```
+##### 정보
+|칼럼|설명|
+|----|----|
+|cno|코스 게시글 번호|
+|cname|코스 이름|
+|carea|코스 장소|
+|ccontents|코스 내용|
+
+##### 예시
+|cno|cname|carea|ccontents|
+|----|----|----|----|
+|1|산책|서울|둘레길 산책코스|
+|2|힐링|강원|소확행 힐링코스|
+
+
