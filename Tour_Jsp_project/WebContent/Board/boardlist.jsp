@@ -15,7 +15,7 @@
 </head>
 <body>
 <div class="container">
-	<table class="table table-striped">
+	<table class="table">
 		<tr>
 			<th>No</th>
 			<th>제목</th>

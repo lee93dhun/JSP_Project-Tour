@@ -17,16 +17,23 @@
 #menu_ul{ margin-top: 10px; }
 #menu_ul_left{  margin-top: 10px; margin-left: 100px; }
 .menu_li_left{ margin-right: 15px; font-size: 15px; }
+#logo{
+	width : 100px;
+	margin-top: -20px;
+}
+#login:hover {
+	text-transform: "login";
+}
 </style>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 </head>
 <body>
-<nav class="navbar navbar-default">
-	<div class="container">
+<nav class="navbar navbar-default" style="height : 70px; ">
+	<div class="container" style="height : 70px;">
 		<div class="navbar navbar-header">
-			<a href="../index/main.jsp"><label>로고 이미지</label></a>
+			<a href="../index/main.jsp"><img src="../img/logo_tour.png" id="logo"></a>
 		</div>
 		<ul class="nav navbar-nav" id="menu_ul_left">
 			<li class="menu_li_left"><a href="#">인기</a></li>
@@ -34,7 +41,7 @@
 			<li class="menu_li_left"><a href="#">축제</a></li>
 		</ul>
 		<ul class="nav navbar-nav navbar-right" id="menu_ul">
-			<li class="menu_li"><a href="#">Login</a></li>
+			<li class="menu_li"><a href="#"><img id = "login" src="../img/login.png" style="width : 30px;"></a></li>
 			<li class="menu_li"><a href="#">Sign up</a></li>
 			<li class="menu_li"><a href="#">Mypage</a></li>
 		</ul>

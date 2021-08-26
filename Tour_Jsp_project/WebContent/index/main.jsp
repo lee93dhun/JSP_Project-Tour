@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title></title>
 <style type="text/css">
-#myCarousel{ margin-top: -20px;}
+#myCarousel{ height : 450px; }
 .cardmenu_li{ list-style-type: none; float : left; border: solid 1px #EDEDED; margin: 25px; border-radius: 5%;}
 .cardmenu_li img{ width : 300px; height : 250px; border-radius: 5%; padding : 5px;}
 .cardmenu_li img:hover{ transform : scale(1.1); }
@@ -24,18 +24,18 @@ h3{ text-align: center; }
 		<li data-target="#myCarousel" data-slie-to="2"></li>	
 		<li data-target="#myCarousel" data-slie-to="3"></li>	
 	</ol>	
-	<div class="carousel-inner">
+	<div class="carousel-inner" style="height : 450px; ">
 		<div class="item active">
-			<a href="#"><img src="../img/pic01.jpg" class="img-responsive center-block" id="img" style="width : 1170px; height : 450px;"></a>
+			<a href="#"><img src="../img/pic01.jpg" class="img-responsive center-block" id="img" style="width : 1170px; height : 450px; margin-top: -40px;"></a>
 		</div>
 		<div class="item">
-			<a href="#"><img src="../img/pic02.jpg" class="img-responsive center-block" id="img" style="width : 1170px; height : 450px;"></a>
+			<a href="#"><img src="../img/pic02.jpg" class="img-responsive center-block" id="img" style="width : 1170px; height : 450px; margin-top: -40px;"></a>
 		</div>
 		<div class="item">
-			<a href="#"><img src="../img/pic03.jpg" class="img-responsive center-block" id="img" style="width : 1170px; height : 450px;"></a>
+			<a href="#"><img src="../img/pic03.jpg" class="img-responsive center-block" id="img" style="width : 1170px; height : 450px; margin-top: -40px;"></a>
 		</div>
 		<div class="item">
-			<a href="#"><img src="../img/pic04.jpg" class="img-responsive center-block" id="img" style="width : 1170px; height : 450px;"></a>
+			<a href="#"><img src="../img/pic04.jpg" class="img-responsive center-block" id="img" style="width : 1170px; height : 450px; margin-top: -40px;"></a>
 		</div>
 	</div>
 </div>
