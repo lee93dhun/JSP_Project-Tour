@@ -64,6 +64,7 @@ public class BoardDao {
 		String sql = "select * from board where bno = ?";
 		try {
 			preparedStatement  = connection.prepareStatement(sql);
+			preparedStatement.setInt(1, bno);
 			resultSet = preparedStatement.executeQuery();
 			if(resultSet.next()) {
 				Board board = new Board(resultSet.getInt(1), 
