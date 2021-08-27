@@ -39,12 +39,12 @@ h3{ text-align: center; }
 		</div>
 	</div>
 </div>
-<div class="container" style="height : 1500px;">
+<div class="container" style="height : 1400px;">
 	<div class="tabmenu" style="height : 500px;">
 		<ul class="nav nav-tabs nav-justified">
-			<li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#menu1">인기</a></li>
-			<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#menu2">코스</a></li>
-			<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#menu3">게시판</a></li>
+			<li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#menu1" style="text-decoration: none; color : black;">Best</a></li>
+			<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#menu2" style="text-decoration: none; color : black;">Course</a></li>
+			<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#menu3" style="text-decoration: none; color : black;">Board</a></li>
 		</ul>
 		<div class="tab-content">
 			<div class="tab-pane fade" id="menu1">인기</div>
@@ -105,5 +105,6 @@ h3{ text-align: center; }
 		</div>
 	</div>
 </div>
+<%@include file="footer.jsp" %>
 </body>
 </html>

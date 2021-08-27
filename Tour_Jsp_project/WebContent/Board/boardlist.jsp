@@ -11,6 +11,7 @@
 <style>
 .table th{text-align: center;}
 .table td{text-align: center;}
+a{ text-decoration: none; color : black;}
 </style>
 </head>
 <body>
