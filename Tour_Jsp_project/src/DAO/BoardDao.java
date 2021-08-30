@@ -23,10 +23,10 @@ public class BoardDao {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/tour?serverTime=UTC","root","971130");
-			System.out.println("DB���� ����");
+			System.out.println("DB연동 성공");
 		} catch (Exception e) {}
 	}
-	//�Խñ� ���
+	//게시글 등록
 	public int boardwrite(Board board) {
 		String sql = "insert into board(btitle, bcontents, bwrite) values(?,?,?)";
 		try {
@@ -40,7 +40,7 @@ public class BoardDao {
 		} catch (Exception e) {}
 		return 0;
 	}
-	//�Խñ� ��ȸ
+	//게시글 조회
 	public ArrayList<Board>boardlist(){
 		ArrayList<Board>boardlists = new ArrayList<Board>();
 		String sql = "select * from board order by bno desc";
@@ -59,7 +59,7 @@ public class BoardDao {
 		} catch (Exception e) {}
 		return null;
 	}
-	//�Խñ� ����ȸ
+	//게시글 상세조회
 	public Board boardcontents(int bno) {
 		String sql = "select * from board where bno = ?";
 		try {
