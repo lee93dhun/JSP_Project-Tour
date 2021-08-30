@@ -6,7 +6,7 @@ bdate datetime default current_timestamp not null,
 bwrite varchar(20) not null);
 
 create table user(
-	uno int primary key auto_increment ,
+    uno int primary key auto_increment ,
     uid varchar(30) not null ,
     upassword varchar(30) not null ,
     uname varchar(30) not null ,
