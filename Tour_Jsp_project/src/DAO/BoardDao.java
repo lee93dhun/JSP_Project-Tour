@@ -23,10 +23,10 @@ public class BoardDao {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/tour?serverTime=UTC","root","971130");
-			System.out.println("DB¿¬µ¿ ¼º°ø");
+			System.out.println("DBï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
 		} catch (Exception e) {}
 	}
-	//°Ô½Ã±Û µî·Ï
+	//ï¿½Ô½Ã±ï¿½ ï¿½ï¿½ï¿½
 	public int boardwrite(Board board) {
 		String sql = "insert into board(btitle, bcontents, bwrite) values(?,?,?)";
 		try {
@@ -40,7 +40,7 @@ public class BoardDao {
 		} catch (Exception e) {}
 		return 0;
 	}
-	//°Ô½Ã±Û Á¶È¸
+	//ï¿½Ô½Ã±ï¿½ ï¿½ï¿½È¸
 	public ArrayList<Board>boardlist(){
 		ArrayList<Board>boardlists = new ArrayList<Board>();
 		String sql = "select * from board order by bno desc";
@@ -59,7 +59,7 @@ public class BoardDao {
 		} catch (Exception e) {}
 		return null;
 	}
-	//°Ô½Ã±Û »ó¼¼Á¶È¸
+	//ï¿½Ô½Ã±ï¿½ ï¿½ï¿½ï¿½ï¿½È¸
 	public Board boardcontents(int bno) {
 		String sql = "select * from board where bno = ?";
 		try {

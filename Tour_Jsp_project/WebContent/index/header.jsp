@@ -36,9 +36,9 @@
 			<a href="../index/main.jsp"><img src="../img/logo_tour.png" id="logo"></a>
 		</div>
 		<ul class="nav navbar-nav" id="menu_ul_left">
-			<li class="menu_li_left"><a href="#">Best</a></li>
-			<li class="menu_li_left"><a href="#">Course</a></li>
-			<li class="menu_li_left"><a href="#">Festival</a></li>
+			<li class="menu_li_left"><a href="../hot/h_main.jsp">Best</a></li>
+			<li class="menu_li_left"><a href="../course/c_main.jsp">Course</a></li>
+			<li class="menu_li_left"><a href="../festival/f_main.jsp">Festival</a></li>
 		</ul>
 		<ul class="nav navbar-nav navbar-right" id="menu_ul">
 			<li class="menu_li"><a href="#">Login</a></li>
