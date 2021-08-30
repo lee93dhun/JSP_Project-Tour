@@ -98,6 +98,6 @@
 			</div>
 		</div>
 	</section>
-	
+	<%@include file="../index/footer.jsp" %>
 </body>
 </html>

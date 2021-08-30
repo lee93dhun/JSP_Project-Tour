@@ -148,5 +148,6 @@
 		</table>
 		
 	</section>
+	<%@include file="../index/footer.jsp" %>
 </body>
 </html>

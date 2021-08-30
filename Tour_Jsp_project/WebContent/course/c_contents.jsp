@@ -24,11 +24,19 @@
 		 	<h2>옛집 담긴 은행나무 마을서 ‘황금빛 향연’</h2>		<!-- 여행지 이름 -->
 		 	<h5>충청남도 보령시</h5>	<!-- 여행지 소재지 -->
 		 </div>
-		 <div >
-		 	
+		 <div class="simple_info">
+		 	<i class="fas fa-users"></i>	<!-- 가족 -->
+		 	<!-- // 아이콘 종류
+				 	<i class="fas fa-user"></i> // 나홀로
+				 	<i class="fas fa-leaf"></i>	// 힐링
+				 	<i class="fas fa-walking"></i>	// 도보
+				 	<i class="fas fa-campground"></i>	//캠핑	
+				 	<i class="fas fa-utensils"></i>	// 맛집
+		 	 -->
 		 </div>
 		
 	
 	</header>
+	<%@include file="../index/footer.jsp" %>
 </body>
 </html>

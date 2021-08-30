@@ -323,6 +323,6 @@
 			</div>
 		</section>
 	</div>
-	
+	<%@include file="../index/footer.jsp" %>
 </body>
 </html>
