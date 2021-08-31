@@ -39,22 +39,8 @@ h3{ text-align: center; }
 		</div>
 	</div>
 </div>
-<div class="container" style="height : 1400px;">
-	<div class="tabmenu" style="height : 500px;">
-		<ul class="nav nav-tabs nav-justified">
-			<li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#menu1" style="text-decoration: none; color : black;">Best</a></li>
-			<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#menu2" style="text-decoration: none; color : black;">Course</a></li>
-			<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#menu3" style="text-decoration: none; color : black;">Board</a></li>
-		</ul>
-		<div class="tab-content">
-			<div class="tab-pane fade" id="menu1">인기</div>
-			<div class="tab-pane fade" id="menu2">코스</div>
-			<div class="tab-pane fade" id="menu3">
-				<%@include file="../Board/boardlist.jsp" %>
-			</div>
-		</div>
-	</div>
-	<hr>
+
+<div class="container" style="height : 1300px; ">
 	<div class="cardmenu" style="margin-top: 30px;">
 		<h3>추천 여행지</h3>
 		<div class="cardmenulist">
@@ -102,6 +88,13 @@ h3{ text-align: center; }
 					</div>
 				</li>
 			</ul>
+		</div>
+	</div>
+	<div style="height : 500px; margin-top: 720px; " >		
+		<hr>
+		<h3>후기 게시판</h3>
+		<div id="menu3" style="margin-bottom : 30px;">
+			<%@include file="../Board/boardlist.jsp" %>
 		</div>
 	</div>
 </div>
