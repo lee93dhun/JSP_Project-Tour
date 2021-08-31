@@ -31,7 +31,7 @@
 		border-color: #ddd;
 	}
 	.form-control:focus {
-		border-color: #4aba70; 
+		border-color: #0A82FF;; 
 	}
 	.login-form {
         width: 350px;
@@ -111,10 +111,10 @@
 		<div class="avatar"><i class="material-icons">&#xE7FF;</i></div>
     	<h4 class="modal-title">로그인</h4>
         <div class="form-group">
-            <input type="text" class="form-control" placeholder="ID" >
+            <input type="text" class="form-control" name="id" placeholder="ID" >
         </div>
         <div class="form-group">
-            <input type="password" class="form-control" placeholder="Password" >
+            <input type="password" class="form-control" name="password" placeholder="Password" >
         </div>
    
         <input type="submit" class="btn btn-primary btn-block btn-lg" value="로그인">              
