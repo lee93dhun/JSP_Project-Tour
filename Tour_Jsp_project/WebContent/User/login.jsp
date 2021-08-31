@@ -107,7 +107,7 @@
 </head>
 <body>
 <div class="login-form">    
-    <form action="/examples/actions/confirmation.php" method="post">
+    <form action="logincontroller.jsp" method="post">
 		<div class="avatar"><i class="material-icons">&#xE7FF;</i></div>
     	<h4 class="modal-title">로그인</h4>
         <div class="form-group">
@@ -121,6 +121,8 @@
     </form>			
     <div class="text-center small">아직 회원이아니세요? <a href="signup.jsp"> 회원가입 </a></div>
 </div>
+	
+	<%@include file="../index/footer.jsp" %>
 
 
 </body>
