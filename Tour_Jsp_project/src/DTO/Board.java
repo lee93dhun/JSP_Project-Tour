@@ -6,20 +6,23 @@ public class Board {
 	private String bcontents;
 	private String bdate;
 	private String bwriter;
+	private int count;
 	
 	public Board() {}
 
-	public Board(int bno, String btitle, String bcontents, String bdate, String bwriter) {
+	public Board(int bno, String btitle, String bcontents, String bdate, String bwriter, int count) {
 		this.bno = bno;
 		this.btitle = btitle;
 		this.bcontents = bcontents;
 		this.bdate = bdate;
 		this.bwriter = bwriter;
+		this.count = count;
 	}
-	public Board(String btitle, String bcontents, String bwriter) {
+	public Board(String btitle, String bcontents, String bwriter, int count) {
 		this.btitle = btitle;
 		this.bcontents = bcontents;
 		this.bwriter = bwriter;
+		this.count = count;
 	}
 
 	public int getBno() {
@@ -61,4 +64,14 @@ public class Board {
 	public void setBwriter(String bwriter) {
 		this.bwriter = bwriter;
 	}
+
+	public int getCount() {
+		return count;
+	}
+
+	public void setCount(int count) {
+		this.count = count;
+	}
+	
+	
 }

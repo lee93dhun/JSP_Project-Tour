@@ -14,6 +14,7 @@
 	request.setCharacterEncoding("utf-8");
 	int bno = Integer.parseInt(request.getParameter("bno"));
 	BoardDao boardDao = BoardDao.getinstance();
+	boardDao.countup(bno);
 	Board board = boardDao.boardcontents(bno);
 %>
 <div class="container">
@@ -37,7 +38,8 @@
 			</div>
 			<input type="submit" class="btn btn-default pull-right" value="수정">
 		</form>
-		<a href="../index/main.jsp"><button class="btn btn-default pull-right" style="margin-right: 10px;">목록</button></a>
+		<a href="#"><button class="btn btn-default pull-right" style="margin-right: 10px;">삭제</button></a>
+		<a href="boardlist.jsp"><button class="btn btn-default pull-right" style="margin-right: 10px;">목록</button></a>
 	</div>
 	<div class="col-md-2"></div>
 </div>

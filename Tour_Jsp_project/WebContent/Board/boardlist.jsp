@@ -11,17 +11,21 @@
 <style>
 .table th{text-align: center;}
 .table td{text-align: center;}
-a{ text-decoration: none; color : black;}
+.table td a{ text-decoration: none; color : black;}
+label{ font-size: 20px;}
 </style>
 </head>
 <body>
+<%@include file="../index/header.jsp" %>
 <div class="container">
-	<table class="table">
+<label>여행 후기</label>
+	<table class="table" style="margin-top: 20px;">
 		<tr>
 			<th>No</th>
 			<th>제목</th>
 			<th>작성자</th>
 			<th>작성일</th>
+			<th>조회수</th>
 		</tr>
 		<%
 			BoardDao boardDao = BoardDao.getinstance();
@@ -34,6 +38,7 @@ a{ text-decoration: none; color : black;}
 			<td><a href="../Board/boardcontents.jsp?bno=<%=bno%>"><%=boards.getBtitle() %></a></td>
 			<td><%=boards.getBwriter() %></td>
 			<td><%=boards.getBdate() %></td>
+			<td><%=boards.getCount() %></td>
 		</tr>
 		<% } %>
 	</table>

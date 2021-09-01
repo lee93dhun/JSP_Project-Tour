@@ -29,8 +29,9 @@
 		</div>
 		<input type="submit" class="btn btn-default pull-right" value="등록">
 	</div>
-	<div class="col-md-2"></div>
 </form>
+	<div class="col-md-2"></div>
+<a href="boardlist.jsp"><button class="btn btn-default pull-right" style="margin-top: -34px; margin-right: 40px; ">목록</button></a>
 </div>
 </body>
 </html>
