@@ -31,7 +31,7 @@
 		border-color: #ddd;
 	}
 	.form-control:focus {
-		border-color: #0A82FF;; 
+		border-color: #0A82FF;
 	}
 	.login-form {
         width: 350px;
@@ -49,7 +49,7 @@
 	}
 	.login-form h4 {
 		text-align: center;
-		font-size: 22px;
+		font-size: 25px;
         margin-bottom: 20px;
 	}
     .login-form .avatar {
@@ -59,7 +59,6 @@
 		width: 100px;
 		height: 100px;
 		border-radius: 50%;
-		z-index: 9;
 		background: #3CB4FF;
 		padding: 15px;
 		box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
